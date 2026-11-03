@@ -37,11 +37,3 @@ The server half: runs on a small always-on machine and connects the Discord chan
 **Open gates, doors and barriers from Home Assistant.** An integration for a Sesame access-control server: one button per access point the server reports, also reachable from Apple Home and Google Home through Home Assistant's bridges. Buttons go unavailable when a token is revoked, the server is unreachable, an access point is closed for the season or its equipment is offline. Authorisation and logging stay on the server.
 
 [Repository](https://github.com/ericguichard/hass-sesame) · Python · MIT · installable through HACS as a custom repository
-
-## Fork
-
-### hass_nuki_ng
-
-Fork of [kvj/hass_nuki_ng](https://github.com/kvj/hass_nuki_ng), better support for Nuki smart locks in Home Assistant (bridge, cloud API or both). My two commits move it off a device-registry API that Home Assistant deprecated in 2026.10 and removes in 2027.8.
-
-[Repository](https://github.com/ericguichard/hass_nuki_ng) · Python · MIT
