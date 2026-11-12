@@ -6,9 +6,18 @@ My public repositories: tools I built to run my own notes and assistant, publish
 
 ## Flux
 
-**A personal AI assistant built on a second-brain structure: anything goes in, in any form, and comes back at the depth you need.**
+**A personal AI assistant built on a second-brain structure, designed security first: anything goes in, in any form, and comes back at the depth you need, but nothing goes out without you.**
 
-Flux is a chief of staff with a strict security badge. You hand it whatever you have; Claude files it, links it to what it already knows, summarises, drafts and asks you questions. The part that reads incoming material cannot send or spend anything.
+Flux is a chief of staff with a strict security badge. You hand it whatever you have; Claude files it, links it to what it already knows, summarises, drafts and asks you questions. It cannot send or spend anything on its own.
+
+**Security model: whoever opens the post does not sign the cheques.** An assistant that reads your mail is exposed to every message anyone sends you, including forged ones written to manipulate an AI. Flux answers this with separation of duties, the control a finance team uses:
+
+- **The reader cannot act.** The AI that reads incoming material works in a locked room: it sees only the vault repository, with no internet, no email, no connectors and no payment means. A forged letter can say "wire the money", but the one reading it has no access to the bank.
+- **Incoming content is data, never instructions.** Emails, attachments, calendar entries and captures are filed and summarised; requests written inside them are never followed, and links in them are never opened by the filing routine.
+- **The couriers do not think.** The server programs that carry things in and out run fixed procedures and make no judgement calls.
+- **Acting outside needs you in the room.** Anything beyond the vault (sending, changing files in your cloud storage, browsing) happens only in an interactive session that you are attending, and only once you say yes.
+- **Least privilege everywhere.** Drive and Calendar access is read-only. The only email Flux sends on its own is the weekly briefing, and only to your own address, read from the account rather than from settings or vault content.
+- **Private conversations stay private.** Flux never reads your messaging apps; it only sees the channels you created for it.
 
 **Multi-modal in.** One Discord channel takes everything, from any device:
 
