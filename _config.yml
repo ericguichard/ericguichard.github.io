@@ -1,4 +1,4 @@
-# GitHub Pages site config (https://ericguichard.github.io): same Cayman theme + IBM Plex override as egressor.org.
+# GitHub Pages site config (https://ericguichard.github.io): Cayman theme + IBM Plex override.
 title: Eric Guichard
 description: Open-source projects
 theme: jekyll-theme-cayman
