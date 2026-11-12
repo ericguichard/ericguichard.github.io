@@ -34,7 +34,7 @@ Flux is a chief of staff with a strict security badge. You hand it whatever you 
 3. **A page:** one Obsidian page per project, person or topic, kept current and linked to the others, readable on phone or laptop.
 4. **The source:** every original capture is kept and filed, so any summary can be traced back to what it came from.
 
-Optional modules bring Google Tasks and Google Calendar into the same flow: each project's open actions become a Tasks list you can tick and edit on your phone. Coming next: an open-items Google Sheet where you see every open item and can type an instruction on a row.
+Optional modules bring Google Tasks, Google Calendar and Google Sheets into the same flow: each project's open actions become a Tasks list you can tick and edit on your phone, and an open-items Sheet lists every open item of every project in one place. Type an instruction on a row and Flux acts on it, then writes its answer back into the row. Only you can edit that Sheet: if anyone else gets edit access, Flux stops reading it.
 
 ### Flux vault template
 
